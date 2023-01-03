@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+;focus,:active{outline: none;}
+afocus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0;border: 0;} 
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{
+	vertical-align: top;
+	object-fit: contain;
+}
+
+
+
+/* --------------------------------------------------- */
+body{
+	font-family: "Fira Mono", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.pricipal-block-fons{
+	background-color: #e7e7e7 ;
+}
+
+.pricipal-block{
+	max-width: 1500px;
+	margin: auto;
+}
+.navbar {
+	width: 100%;
+	height: auto;	
+	border-color: white;
+	margin: 0 auto;
+	box-shadow: 0 0.3px black;
+}
+.navbar .container {
+	max-width: 1500px;
+	margin: 0 auto;
+	height: inherit;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+}
+.navbar-logo {
+}
+img{
+	height: 25px;
+}
+.navbar-wrap {
+	display: flex;
+	flex-flow: row nowrap ;
+}
+.navbar-menu li {
+	display: inline-block;
+	color: black;
+	
+}
+.navbar-menu li a {
+	display: inline-block;
+	color: #000;
+	opacity: 0.6;
+	padding: 10px;
+	transition: all .07s ease-in-out;
+}
+
+.navbar-menu li a:hover {
+	opacity: 1;
+
+}
+
+.callback{
+	color: #000;
+	margin-left: 30px;
+	padding: 10px;
+	transition: .07s ease-in-out;	
+}
+
+.navbar-2{
+   width: 80%;
+	height: auto;	
+	border-color: white;
+	margin: 0 auto;
+	box-shadow: 0 0.3px black;
+}
+
+.container-search-box{
+	height: auto;	
+	border-color: white;
+	display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-between;
+   
+}
+.search-box {
+	flex-wrap: wrap;
+	height: inherit;
+	display: flex;
+	padding: 10px;
+	
+}
+input{
+	width: 300px;
+	outline: none;	
+}
+.search-block{
+	margin-right: 0px;
+}
+.search-text {
+	font-size: 18px;
+}
+.icon{
+	width: 25px;
+	height: 25px;
+}
+.navbar-wrap {
+}
+.search-box-2 {
+	height: inherit;
+	display: flex;
+	padding: 10px;
+	margin-right: 220px;
+}
+.icon-2 {
+	width: 25px;
+	height: 25px;
+}
+.search-harta {
+	font-size: 18px;
+	color: #000;
+	opacity: 0.6;
+	font-weight: 700;
+}
+
+.container-baner{
+	max-width: 1550px;
+	margin: 0 auto;
+	padding: 15px 0 0 0;
+}
+
+.baner{
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+.container-text{
+	max-width: 1450px;
+	margin: 0 auto;
+	text-align: center;
+}
+h1{
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0 auto 0;
+	padding: 15px 10px;
+	font-family: "Fira Mono", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	line-height: 1.1;
+	color: #555555;
+}
+
+.conteiner-categorii-de-mincare{
+	max-width: 1450px;
+	margin: 0 auto;
+	background-color: white;
+	padding: 50px 150px;
+	box-shadow:0  0.3px  black;
+	
+}
+.lista-mincare{
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.container-mincare-1{
+	display: flex;
+	flex-direction: column;
+}
+
+.container-mincare-2{
+	display: flex;
+	flex-direction: column;
+}
+.container-mincare-3{
+	display: flex;
+	flex-direction: column;
+}
+.container-mincare-4{
+	display: flex;
+	flex-direction: column;
+}
+.container-mincare-5{
+	display: flex;
+	flex-direction: column;
+}
+.container-mincare-6{
+	display: flex;
+	flex-direction: column;
+}
+.img-logo-food{
+	width: 70px;
+	height: 70px;
+}
+
+h2{
+	font-size: 14px;
+	color: #000;
+	opacity: 0.6;
+}
+.button{
+	transform: scale(1, 1);
+	transition: .07s ease-in-out;	
+}
+.button:hover{
+	transform: scale(1.2);
+}
+
+.block-Новые-рестораны{
+	padding: 15px;
+	margin-top: 30px;
+	background-color: white;
+	box-shadow:0  0.3px  black;
+}
+.container-block-restaran{
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+}
+.container-text{
+	display: flex;
+	font-size: 18px;
+	color: darkgreen;
+	font-weight: 600;
+	padding: 15px;
+}
+
+.block-restoran {
+	padding: 20px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	transform: scale(1, 1);
+	transition: .07s ease-in-out;	
+}
+.block-restoran:hover {
+	transform: scale(1.2);
+}
+
+.logo-restoran{
+	width: auto;
+	height: auto;
+}
+.block-restoran-app {
+	margin: auto;
+}
+.block-restoran-down {
+	margin: auto;
+}
+.name-logo{
+	font-size: 20px;
+	font-weight: 700;
+	opacity: 0.6;
+	padding: 10px;
+	color: #000;
+}
+.content-text{
+	font-size: 14px;
+	font-weight: 500;
+	color: #000;
+}
+p{
+	display: flex;
+	justify-content: center;
+}
+/* ------------------------------------------------------ */
+
+.fotter-block-wrap{
+	background-color: #b1afaf;
+}
+.fotter-block{
+	padding: 50px;
+	max-width: 1500px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.fotter-container{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.fotter-text-1{
+	font-size: 18px;
+	font-weight: 600;
+}
+.fotter-text-2{
+	opacity: 0.6;
+	color: #000;
+	transition: .07s ease-in-out;	
+}
+.fotter-text-2:hover{
+	opacity: 1;
+	color: #000;
+}
